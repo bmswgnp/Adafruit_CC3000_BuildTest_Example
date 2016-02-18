@@ -1,6 +1,11 @@
 # Adafruit_CC3000_BuildTest_Example
 The buildtest sketch does a full test of core WiFi connectivity.
 
+
+#---------------------------------------------------------------------------------------------
+# Here's a sample of the Serial Monitor output of buildtest. You should see something similar:
+#---------------------------------------------------------------------------------------------
+
 Hello, CC3000!
 
 RX Buffer : 131 bytes
@@ -16,7 +21,7 @@ Networks found: 0
 
 Deleting old connection profiles
 
-Attempting to connect to R2D2
+Attempting to connect to "WIFIConnection"
 Connected!
 Request DHCP
 Unable to retrieve the IP Address!
@@ -34,3 +39,4 @@ Ping successful!
 
 
 Closing the connection
+
